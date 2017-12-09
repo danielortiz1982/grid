@@ -21,6 +21,7 @@ $bv-tablet:          768px;
 $bv-desktop-small:   1024px;
 $bv-desktop-medium:  1200px;
 $bv-desktop-large:   1440px;
+$bv-desktop-XL:      1920px;
 
 // Container Variation
 
@@ -30,7 +31,7 @@ $bv-desktop-large:   1440px;
   overflow: hidden !important;
 }
 
-@mixin bv-container-box($width: 100%){
+@mixin bv-container-box($width: 90%){
   width: $width;
   display: block;
   padding: 0;
@@ -124,12 +125,8 @@ body{
     @include bv-grid-row();
   }
 
-  .bv-full{
-    @include bv-container-box();
-  }
-
   .bv-container{
-    @include bv-container-box($width: 90%);
+    @include bv-container-box();
   }
 
   .bv-1{
