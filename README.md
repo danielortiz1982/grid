@@ -1,2 +1,2 @@
-# Branding Verticals Lightweight SCSS Grid Library
+# Branding Verticals Lightweight SCSS Responsive Layout Library
 ## [brandingverticals](https://www.brandingverticals.com)
